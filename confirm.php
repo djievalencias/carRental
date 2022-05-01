@@ -52,6 +52,7 @@
           $driver = $_POST['exampleRadios'];
           if ($driver == 'option1') {
             echo 'With driver';
+            $price += 150000;
           } else if($driver == 'option2') {
             echo 'Self drive';
           }

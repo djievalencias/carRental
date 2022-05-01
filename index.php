@@ -17,7 +17,7 @@
   </nav>
   <div class="wrapper">
     <div class="container">
-      <h2 class="margin-top">Book a Car now!</h2>
+      <h2 style="margin: 12px 0;">Book a Car now!</h2>
       <form class="form" action="confirm.php" method="post" id="form">
         <label for="exampeInputName">Enter your name</label>
         <div class="row">
@@ -30,43 +30,58 @@
           </div>
         </div>
         <div class="form-group">
-          <label for="exampleInputEmail1">Enter your email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+          <label class="form-label" for="exampleInputEmail1">Enter your email address</label>
+          <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
           <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
         <div class="form-group">
           <label for="exampleFormControlSelect1">Select your car type</label>
-          <select class="form-control" id="exampleFormControlSelect1">
-            <option value="car1">Toyota Avanza</option>
+          <select class="form-control" id="exampleFormControlSelect1" name="car-type">
+            <option value="car1" selected>Toyota Avanza</option>
             <option value="car2">Daihatsu Sigra</option>
-            <option value="car3">Peugeot 2008</option>
+            <option value="car3">Peugeot 2008 Allure</option>
             <option value="car4">Toyota Alphard</option>
           </select>
         </div>
-        <div class="custom-control custom-radio custom-control-inline">
-          <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
-          <label class="custom-control-label" for="customRadioInline1" value="driver">With driver</label>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+          <label class="form-check-label" for="exampleRadios1">
+            With driver
+          </label>
         </div>
-        <div class="custom-control custom-radio custom-control-inline">
-          <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
-          <label class="custom-control-label" for="customRadioInline2">Without driver</label>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+          <label class="form-check-label" for="exampleRadios2">
+            Self drive
+          </label>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="exampleFormControlSelect2">Length of time (days)</label>
+          <select multiple class="form-control" name="book-time" required>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+          </select>
         </div>
         <div class="form-group">
           <label for="exampleFormControlSelect1">Choose office</label>
-          <select class="form-control" id="exampleFormControlSelect1">
-            <option value="office1">Jl. Stonen Timur No.29, Bendan Ngisor, Kec. Gajahmungkur</option>
+          <select class="form-control" name="office">
+            <option value="office1" selected>Jl. Stonen Timur No.29, Bendan Ngisor, Kec. Gajahmungkur</option>
             <option value="office2">Tanjung Mas, Semarang Utara</option>
             <option value="office3">Jl. Puskesmas No.16, Tlogosari Kulon, Kec. Pedurungan</option>
           </select>
         </div>
         <div class="custom-control custom-checkbox">
           <input type="checkbox" class="custom-control-input" id="customCheck1" required>
-          <label class="custom-control-label" for="customCheck1">I agree to terms and conditions</label>
+          <label class="form-label custom-control-label" for="customCheck1">I agree to terms and conditions</label>
         </div>
-        <button class="btn btn-outline-dark btn-block" type="submit" value="Submit" name="Submit">Submit</button>
+        <button class="btn btn-outline-dark btn-block" type="submit" value="Submit" name="Submit" style="margin: 12px 0">Submit</button>
       </form>
     </div>
   </div>
-  
 </body>
 </html>

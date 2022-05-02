@@ -1,0 +1,25 @@
+h2, h3 {
+  font-weight: bold;
+}
+
+.text-center {
+  align-items: center;
+}
+
+.col {
+  border-right: 1px solid rgba(108, 122, 137, 1);
+}
+
+.no-border {
+  border-right: none;
+}
+
+.p-top {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.p-bottom {
+  font-size: 15px;
+}

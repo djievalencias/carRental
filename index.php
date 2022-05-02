@@ -67,14 +67,6 @@
             <option value="7">7</option>
           </select>
         </div>
-        <div class="form-group">
-          <label for="exampleFormControlSelect1">Choose office</label>
-          <select class="form-control" name="office">
-            <option value="office1" selected>Jl. Stonen Timur No.29, Bendan Ngisor, Kec. Gajahmungkur</option>
-            <option value="office2">Tanjung Mas, Semarang Utara</option>
-            <option value="office3">Jl. Puskesmas No.16, Tlogosari Kulon, Kec. Pedurungan</option>
-          </select>
-        </div>
         <div class="custom-control custom-checkbox">
           <input type="checkbox" class="custom-control-input" id="customCheck1" required>
           <label class="form-label custom-control-label" for="customCheck1">I agree to terms and conditions</label>

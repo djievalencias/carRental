@@ -34,6 +34,38 @@
           <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
           <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
+        <p>Price List</p>
+        <table class="table table-sm">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Car Type</th>
+              <th scope="col">Price per day</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Toyota Avanza</td>
+              <td>Rp 200.000</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Daihatsu Sigra</td>
+              <td>Rp 105.000</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Peugeot 2008 Allure</td>
+              <td>Rp 15.000.000</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>Toyota Alphard</td>
+              <td>Rp 2.500.000</td>
+            </tr>
+          </tbody>
+        </table>
         <div class="form-group">
           <label for="exampleFormControlSelect1">Select your car type</label>
           <select class="form-control" id="exampleFormControlSelect1" name="car-type">
@@ -55,6 +87,7 @@
             Self drive
           </label>
         </div>
+        <small id="radioHelp" class="form-text text-muted">Driver additional charges applied: Rp 150.000</small>
         <div class="form-group">
           <label class="form-label" for="exampleFormControlSelect2">Length of time (days)</label>
           <select multiple class="form-control" name="book-time" required>

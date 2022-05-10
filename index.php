@@ -1,3 +1,10 @@
+<!-- Kelompok 32 - Shift 2
+Disti Diahning Ayuwangi (21120121120011)
+Djie Valencia Santoso (21120121130055)
+George Miracle Theophylus (21120121140031)
+Kumala Dewi Kusumawati (21120121120010)
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
